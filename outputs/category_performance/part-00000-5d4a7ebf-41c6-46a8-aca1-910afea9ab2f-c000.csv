@@ -1,0 +1,26 @@
+category_id,category_name,units_sold,revenue,products_sold
+cat_011,Spence PLC,51889,1.373062944E7,183
+cat_000,"Rodriguez, Figueroa and Sanchez",45748,1.149073694E7,166
+cat_010,Burns-Rodriguez,55205,1.396798214E7,193
+cat_007,"Moore, Becker and Carlson",51382,1.257718452E7,174
+cat_021,Mitchell-Kim,54628,1.423319049E7,192
+cat_020,"Brewer, Bryant and Hickman",58790,1.338362337E7,202
+cat_024,"Patterson, Smith and Jones",52871,1.343108723E7,189
+cat_005,Cameron-Parsons,57154,1.54337794E7,206
+cat_016,Wright-Leblanc,45624,1.186359416E7,167
+cat_001,Baldwin Ltd,54159,1.245125232E7,199
+cat_014,"Anderson, Walls and Duncan",61814,1.486107407E7,208
+cat_013,Smith Ltd,48457,1.192110671E7,170
+cat_008,Rodriguez-Graham,53128,1.240406785E7,188
+cat_019,Powell PLC,57585,1.403523852E7,193
+cat_023,King-Odonnell,51412,1.194906327E7,173
+cat_018,Phillips Inc,58973,1.40194494E7,201
+cat_002,James LLC,51584,1.212043075E7,180
+cat_015,Owens-Daniel,52812,1.301881498E7,192
+cat_017,Hancock Inc,60134,1.37498877E7,214
+cat_009,Skinner-Romero,52362,1.247970978E7,175
+cat_006,"Ellis, Baker and Wright",53847,1.363108021E7,195
+cat_012,Carney-Santos,57297,1.388465146E7,203
+cat_003,Bush Inc,55205,1.365701333E7,196
+cat_004,Kelly-Santiago,61305,1.505123786E7,223
+cat_022,Preston Ltd,53612,1.291311032E7,184
