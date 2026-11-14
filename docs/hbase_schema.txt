@@ -1,0 +1,13 @@
+HBase Shell schema (run ONLY on a healthy HBase cluster):
+create 'user_activity', 'session', 'device', 'geo', 'activity'
+create 'product_daily_metrics', 'metrics'
+describe 'user_activity'
+describe 'product_daily_metrics'
+# Example access pattern: user_id#reverse_epoch_millis#session_id
+# Reverse timestamp makes recent user sessions sort first.
+# Production caveat: salt prefix distributes writes but requires multi-bucket reads.
+# Example record (replace identifiers with real values):
+put 'user_activity', 'user_000825#9999999999999#sess_example', 'session:conversion_status', 'browsed'
+scan 'user_activity', {ROWPREFIXFILTER => 'user_000825#', LIMIT => 10}
+# Product metrics key: product_id#YYYYMMDD, e.g. prod_00052#20261101
+# Load and retrieval evidence must be collected from an actually running cluster.

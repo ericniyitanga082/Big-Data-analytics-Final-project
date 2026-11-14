@@ -1,0 +1,6 @@
+segment,customers,avg_customer_spend,avg_purchases,segment_revenue
+At Risk,2961,36025.04,40.35,1.0667014127E8
+Regular Customers,2513,37951.94,43.04,9.537322301E7
+High-Value Customers,1690,47948.88,50.88,8.103360237E7
+Champions,1343,48157.16,51.24,6.467506427E7
+New or Occasional,1493,34582.86,37.92,5.16322143E7
